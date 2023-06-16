@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 21cm;
+    height: 29.7cm;
+	background-color:#fff;
+	margin:auto;
+	padding:0;
+}
+
+.left-side {
+	width: 35%;
+	height:28cm;
+    float: left;
+    overflow: hidden;
+    background-color: #212373;
+	color:#fff;
+}
+.left-side section:not(.photo) {
+	padding:5px;
+}
+
+.about-me h2 {
+	padding-bottom:5px;
+}
+
+.about-me a:visited{
+	color:#fff;
+}
+
+.right-side {
+	width:65%;
+	float:left;
+	height:28cm;
+    overflow:hidden;
+	color:#212373;
+}
+
+.info{
+	padding:5px;
+}
+	
+img{
+	width:100%;
+	height:auto;
+}
+
+.footer {
+	padding:5px;
+	width:21cm;
+    overflow:hidden;
+	background-color:#eaeaf6;
+}
+
+.name {
+	text-align:center;
+}
+
+main h2 {
+	background-color:#212373;
+	color:#fff;
+	padding:5px;
+}
+
+.right-side hr {
+	width:70%;
+	border:3px solid #212373;
+	border-radius:3px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:15%;
+}
+
+.left-side hr {
+	width:70%;
+	border:3px solid #fff;
+	border-radius:3px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:15%;
+}
+
+.right-side section:not(last-child) {
+	margin-bottom:5%;
+}
