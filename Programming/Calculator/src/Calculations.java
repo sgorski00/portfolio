@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculations {
     double result;
 
-    double substraction(double a, double b){
+    double substraction(double a, char sign, double b){
         result = a - b;
         return result;
     }

@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ArithmeticException, IllegalArgumentException {
         Calculations calculations = new Calculations();
         Scanner scanner = new Scanner(System.in);
         Scanner x = new Scanner(System.in);
@@ -18,8 +18,9 @@ public class Main {
             double b = scanner.nextDouble();
 
             if(!(sign == '+' || sign == '-' || sign == '*' || sign == '/')){
-                System.out.println("Enter correct sign! ('+', '-', '*', '/')");
-                System.exit(0);
+                throw new IllegalArgumentException("Enter correct sign! ('+', '-', '*' or '/'");
+            } else if ((a == 0 || b == 0) && sign == '/'){
+                throw new ArithmeticException("Cannot be divided by 0!");
             }
 
             switch(sign) {
@@ -27,18 +28,13 @@ public class Main {
                     calculations.addition(a, b);
                     break;
                 case '-':
-                    calculations.substraction(a, b);
+                    calculations.substraction(a, sign, b);
                     break;
                 case '*':
                     calculations.multiplication(a, b);
                     break;
                 case '/':
-                    if(a == 0 || b == 0) {
-                        System.out.println("Cannot be divided by 0!");
-                        System.exit(0);
-                    }else {
                         calculations.division(a, b);
-                    }
                     break;
             }
         }
