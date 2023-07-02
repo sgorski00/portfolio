@@ -9,10 +9,10 @@ public class UserChoiceOfItem {
         return userCloth;
     }
 
-    String chooseColour(){
+    String chooseColor(){
         System.out.println("Wybierz kolor:");
-        String userColour = scanner.nextLine();
-        return userColour;
+        String userColor = scanner.nextLine();
+        return userColor;
     }
 
     String chooseStyle(){

@@ -4,17 +4,17 @@ import java.util.HashMap;
 import static java.lang.String.*;
 
 public class ListOfStyles {
-    public static HashMap<String, ArrayList> mapOfStyles = new HashMap<>();
-    public static ArrayList<String> ribbed = new ArrayList<>();
-    public static ArrayList<String> oversize = new ArrayList<>();
-    public static ArrayList<String> basic = new ArrayList<>();
-    public static ArrayList<String> vintage = new ArrayList<>();
-    public static ArrayList<String> baggy = new ArrayList<>();
-    public static ArrayList<String> highwaist = new ArrayList<>();
-    public static ArrayList<String> longsleeve = new ArrayList<>();
-    public static ArrayList<String> shortsleeve = new ArrayList<>();
+    public HashMap<String, ArrayList> mapOfStyles = new HashMap<>();
+    private ArrayList<String> ribbed = new ArrayList<>();
+    private ArrayList<String> oversize = new ArrayList<>();
+    private ArrayList<String> basic = new ArrayList<>();
+    private ArrayList<String> vintage = new ArrayList<>();
+    private ArrayList<String> baggy = new ArrayList<>();
+    private ArrayList<String> highwaist = new ArrayList<>();
+    private ArrayList<String> longsleeve = new ArrayList<>();
+    private ArrayList<String> shortsleeve = new ArrayList<>();
 
-    static {
+    {
         mapOfStyles.put("wysoki stan", highwaist);
         mapOfStyles.put("baggy", baggy);
         mapOfStyles.put("vintage", vintage);
@@ -38,13 +38,5 @@ public class ListOfStyles {
         oversize.add("#oversizowe");
         oversize.add("#oversizowa");
         ribbed.add("#prążkowany");
-    }
-
-    static String printMapOfStyles(String style){
-        String s = valueOf(mapOfStyles.get(style));
-        s = s.replaceAll("\\[", "");
-        s = s.replaceAll("]", "");
-        s = s.replaceAll(",", "");
-        return s;
     }
 }
