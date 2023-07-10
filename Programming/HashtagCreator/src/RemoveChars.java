@@ -1,5 +1,5 @@
 public class RemoveChars {
-    public String firstWord(String hashtag){
+    public String clearWord(String hashtag){
         String word = hashtag;
         word = word.replaceAll("\\[", "");
         word = word.replaceAll("]", "");

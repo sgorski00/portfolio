@@ -19,7 +19,7 @@ public class MakeColorsHashtag implements ChangeLastLetter{
     public String modifiedHashtag(String cloth, String attributeToChange) {
         String changedColoursHashtags = "";
         int i = 0;
-        while (i< lists.colorsList(attributeToChange).size()) {
+        while (i < lists.colorsList(attributeToChange).size()) {
             changedColoursHashtags += lists.colorsList(attributeToChange).get(i);
             changedColoursHashtags = changedColoursHashtags.substring(0, changedColoursHashtags.length() - 1);
             changedColoursHashtags += lastChar(cloth);
@@ -28,12 +28,12 @@ public class MakeColorsHashtag implements ChangeLastLetter{
         return changedColoursHashtags;
     }
 
-    public String hashtagsReadyToUse(String cloth, String attributeToChange){
+    public String colorsHashtagsReadyToUse(String cloth, String color){
         String clothAndColoursHashtags = "";
         int i = 0;
         while (i < lists.clothsList(cloth).size()) {
-            clothAndColoursHashtags += modifiedHashtag(cloth, attributeToChange) + removeChars.firstWord(lists.clothsList(cloth).get(i).toString()) + " ";
-            clothAndColoursHashtags += lists.clothsList(cloth).get(i).toString() + removeChars.firstWord(modifiedHashtag(cloth, attributeToChange)) + " ";
+            clothAndColoursHashtags += modifiedHashtag(cloth, color) + removeChars.clearWord(lists.clothsList(cloth).get(i).toString()) + " ";
+            clothAndColoursHashtags += lists.clothsList(cloth).get(i).toString() + removeChars.clearWord(modifiedHashtag(cloth, color)) + " ";
             i++;
         }
         return clothAndColoursHashtags;

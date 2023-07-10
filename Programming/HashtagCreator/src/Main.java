@@ -12,7 +12,7 @@ public class Main {
         officialHashtags += basicHashtags.basicClothHashtag(choosedCloth);
         officialHashtags += basicHashtags.basicColorHashtag(choosedColor);
         officialHashtags += basicHashtags.basicStyleHashtag(choosedStyles);
-        officialHashtags += coloursHashtags.hashtagsReadyToUse(choosedCloth, choosedColor);
+        officialHashtags += coloursHashtags.colorsHashtagsReadyToUse(choosedCloth, choosedColor);
 
         System.out.print(officialHashtags);
     }
