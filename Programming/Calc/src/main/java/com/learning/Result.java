@@ -1,4 +1,4 @@
-package pl.learning;
+package com.learning;
 
 public class Result extends Operations {
     private final ChangeToNeededVariables changedVar = new ChangeToNeededVariables();
@@ -15,7 +15,6 @@ public class Result extends Operations {
                     a = changedVar.firstNumber();
                     b = changedVar.secondNumber();
                     if (a != 0 && b != 0) {
-                        isDivisionOk = true;
                     }
                 }
             }

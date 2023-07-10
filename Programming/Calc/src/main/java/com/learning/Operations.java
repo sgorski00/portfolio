@@ -1,4 +1,4 @@
-package pl.learning;
+package com.learning;
 
 public class Operations {
     public double makeOperation(char symbol, double a, double b) {

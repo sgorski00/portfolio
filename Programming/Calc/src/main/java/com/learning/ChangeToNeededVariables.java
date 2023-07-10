@@ -1,4 +1,4 @@
-package pl.learning;
+package com.learning;
 
 public class ChangeToNeededVariables extends GetValuesFromUsers {
     public double firstNumber() {
