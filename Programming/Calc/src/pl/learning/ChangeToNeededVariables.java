@@ -31,16 +31,15 @@ public class ChangeToNeededVariables extends GetValuesFromUsers {
 
     public char mathSymbol() {
         boolean isSuccesful = false;
-        char symbol = getSymbol().charAt(0);
-
+        String symbol = getSymbol();
         while (!isSuccesful) {
-            if (symbol == '+' || symbol == '-' || symbol == '*' || symbol == '/') {
+            if (symbol.equals("+") || symbol.equals("-") || symbol.equals("*") || symbol.equals("/")) {
                 isSuccesful = true;
             } else {
                 System.err.println("Enter correct Math symbol! ('+', '-', '*' or '/')");
-                symbol = getSymbol().charAt(0);
+                symbol = getSymbol();
             }
         }
-        return symbol;
+        return symbol.charAt(0);
     }
 }
