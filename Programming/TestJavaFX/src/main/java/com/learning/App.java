@@ -22,7 +22,6 @@ public class App extends Application {
         loader.setLocation(this.getClass().getResource("/fxml/StackPaneWindow.fxml"));
         StackPane stackPane = loader.load();
 
-        StackPaneController controller = loader.getController();
 
         Scene scene = new Scene(stackPane);
         primaryStage.setScene(scene);
