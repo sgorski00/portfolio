@@ -8,10 +8,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../Pulpit/portfolio/Programming/TestProjectJavaFX/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/../../../Pulpit/portfolio/Programming/TestJavaFX/out" />
+    <output url="file://$PROJECT_DIR$/../../../Pulpit/portfolio/Programming/TestProjectJavaFX/out" />
   </component>
 </project>
