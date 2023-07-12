@@ -1,5 +1,6 @@
 package com.learning;
 
+import com.learning.controller.StackPaneController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -11,7 +12,7 @@ import java.io.IOException;
 public class App extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws IOException {
+    public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/com/learning/fxml/StackPaneWindow.fxml"));
         StackPane stackPane = loader.load();
