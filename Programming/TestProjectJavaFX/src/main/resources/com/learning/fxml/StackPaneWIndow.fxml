@@ -11,6 +11,7 @@
          <children>
             <Button fx:id="button" mnemonicParsing="false" onAction="#onAction" text="Button" />
             <CheckBox fx:id="checkBox" mnemonicParsing="false" onAction="#onAction" text="CheckBox" />
+            <Button fx:id="secondButton" alignment="CENTER_RIGHT" mnemonicParsing="false" text="Button no. 2" />
          </children>
       </HBox>
    </children>

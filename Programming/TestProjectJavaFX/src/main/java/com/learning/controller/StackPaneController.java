@@ -1,6 +1,7 @@
 package com.learning.controller;
 
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
@@ -8,7 +9,7 @@ import javafx.scene.input.MouseEvent;
 
 public class StackPaneController {
     @FXML
-    private Button button;
+    private Button secondButton;
 
     public StackPaneController(){
         System.out.println("Controller");
@@ -16,7 +17,21 @@ public class StackPaneController {
 
     @FXML
     void initialize(){
-        button.setText("New button");
+        secondButton.setText("TestButton");
+
+        EventHandler<ActionEvent> handler = new EventHandler<ActionEvent>() {
+
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                System.out.println("On action button coded in Java.");
+            }
+        };
+        secondButton.addEventHandler(ActionEvent.ACTION, handler);
+
+        EventHandler<MouseEvent> mouseHandlerLambda = e -> {
+            System.out.println("This is mouse handler coded in lambda");
+        };
+        secondButton.addEventHandler(MouseEvent.MOUSE_RELEASED, mouseHandlerLambda);
     }
 
     @FXML
