@@ -10,6 +10,7 @@ public class Main {
         Animal axel = new Dog("Axel", 5);
         Animal max = new Dog("Max", 4);
         Animal max2 = new Elephant(max);
+        Animal ricci = new Lion("Ricci", 23);
 
         List<Animal> animals = new ArrayList<>();
         animals.add(filemon);
