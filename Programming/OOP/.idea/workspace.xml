@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22780178-c3d2-4239-b67c-c9e00ec8a91f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/VoiceOfAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calc/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Calc/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calc/src/main/java/com/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Calc/src/main/java/com/learning/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HashtagCreator/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HashtagCreator/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HashtagCreator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HashtagCreator/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/BasicInfo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Bird.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Dog.java" afterDir="false" />
@@ -19,9 +21,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Elephant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Fish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Lion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/BasicInfo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Bird.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Cat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Dog.class" afterDir="false" />
@@ -30,6 +30,9 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Fish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Fish.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Lion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Lion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestProjectJavaFX/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TestProjectJavaFX/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestProjectJavaFX/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestProjectJavaFX/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestProjectJavaFX/nbactions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestProjectJavaFX/nbactions.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/48536/OneDrive/Pulpit/newfeatures/portfolio/Programming/OOP",
+    "last_opened_file_path": "C:/Users/48536/OneDrive/Pulpit/portfolio/Programming/OOP",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
