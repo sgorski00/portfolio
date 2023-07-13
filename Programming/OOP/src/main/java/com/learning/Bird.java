@@ -1,6 +1,6 @@
 package com.learning;
 
-public class Bird extends BasicInfo implements Aerial, Animal{
+public class Bird extends Animal implements Aerial {
     @Override
     public void makeNoise() {
         System.out.println("Kraaa");
@@ -19,8 +19,8 @@ public class Bird extends BasicInfo implements Aerial, Animal{
         super(name, age);
     }
 
-    public Bird(Bird bird){
-        age = bird.age;
-        name = bird.name;
+    public Bird(Animal animal){
+        age = animal.age;
+        name = animal.name;
     }
 }

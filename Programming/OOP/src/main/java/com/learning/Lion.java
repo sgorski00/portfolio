@@ -1,6 +1,6 @@
 package com.learning;
 
-public class Lion extends BasicInfo implements Teresstial, Animal{
+public class Lion extends Animal implements Teresstial {
     @Override
     public void makeNoise() {
         System.out.println("Arrrgh");
@@ -24,8 +24,8 @@ public class Lion extends BasicInfo implements Teresstial, Animal{
         super(name, age);
     }
 
-    public Lion(Lion lion){
-        age = lion.age;
-        name = lion.name;
+    public Lion(Animal animal){
+        age = animal.age;
+        name = animal.name;
     }
 }

@@ -1,6 +1,6 @@
 package com.learning;
 
-public class Elephant extends BasicInfo implements Teresstial, Animal{
+public class Elephant extends Animal implements Teresstial {
     @Override
     public void makeNoise() {
         System.out.println("Fiuuuu");
@@ -16,11 +16,6 @@ public class Elephant extends BasicInfo implements Teresstial, Animal{
         return false;
     }
 
-    @Override
-    public String getName(){
-        return name;
-    }
-
     public Elephant(){
 
     }
@@ -29,8 +24,8 @@ public class Elephant extends BasicInfo implements Teresstial, Animal{
         super(name, age);
     }
 
-    public Elephant(Elephant elephant){
-        name = elephant.name;
-        age = elephant.age;
+    public Elephant(Animal animal){
+        name = animal.name;
+        age = animal.age;
     }
 }

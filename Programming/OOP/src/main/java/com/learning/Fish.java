@@ -1,6 +1,6 @@
 package com.learning;
 
-public class Fish extends BasicInfo implements Aquantis, Animal{
+public class Fish extends Animal implements Aquantis {
     @Override
     public void makeNoise() {
         System.out.println("gul gul");
@@ -17,8 +17,8 @@ public class Fish extends BasicInfo implements Aquantis, Animal{
         super(name, age);
     }
 
-    public Fish(Fish fish){
-        age = fish.age;
-        name = fish.name;
+    public Fish(Animal animal){
+        age = animal.age;
+        name = animal.name;
     }
 }
