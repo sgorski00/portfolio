@@ -11,6 +11,7 @@ public class Main {
         Animal max = new Dog("Max", 4);
         Animal max2 = new Elephant(max);
         Animal ricci = new Lion("Ricci", 23);
+        Animal goldi = new Fish("Goldie", 1);
 
         List<Animal> animals = new ArrayList<>();
         animals.add(filemon);
@@ -18,6 +19,7 @@ public class Main {
         animals.add(axel);
         animals.add(max);
         animals.add(max2);
+        animals.add(goldi);
 
         int i = 0;
         while (i< animals.size()){
