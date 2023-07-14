@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22780178-c3d2-4239-b67c-c9e00ec8a91f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Calc/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Calc/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calc/src/main/java/com/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Calc/src/main/java/com/learning/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hangman/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hangman/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HashtagCreator/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HashtagCreator/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HashtagCreator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HashtagCreator/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Dolphin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Dolphin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Elephant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Lion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Dolphin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Dolphin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Elephant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Elephant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Fish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Fish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Lion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Lion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learning/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learning/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestProjectJavaFX/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TestProjectJavaFX/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestProjectJavaFX/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestProjectJavaFX/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestProjectJavaFX/nbactions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestProjectJavaFX/nbactions.xml" afterDir="false" />
-    </list>
+    <list default="true" id="22780178-c3d2-4239-b67c-c9e00ec8a91f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,18 +28,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/48536/OneDrive/Pulpit/portfolio/Programming/OOP",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/48536/OneDrive/Pulpit/portfolio/Programming/OOP&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\48536\OneDrive\Pulpit\portfolio\Programming" />
